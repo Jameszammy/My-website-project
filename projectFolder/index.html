@@ -8,13 +8,36 @@
 </head>
 <body>
     <div id="usermain">
-    <fieldset id="ft">
+    <form id="ft">
         <div id="user">
             <input type="text" id="tex" placeholder="useremail"> <br> <br>
-            <input type="text" id="tex" placeholder="userpassword"> <br> <br>
-            <button id="btn">Login</button>
+            <input type="password" id="pass" placeholder="userpassword"> <br> <br>
+            <button id="btn" type="button">Login</button>
         </div>
-    </fieldset>
+    </form>
     </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+  let loginBtn = document.getElementById('btn');
+  loginBtn.style.color="gray";
+  if (loginBtn) {
+    loginBtn.addEventListener('click', function (e) {
+      // e.preventDefault(); // Prevent default behavior
+
+      const email = document.getElementById('tex').value.trim();
+      const password = document.getElementById('pass').value.trim();
+
+      if (email && password) {
+        // Redirect to main page
+        window.location.href = "/src/pages/mainPage.html";
+      } else {
+        alert("Please enter email and password");
+      }
+    });
+  }
+});
+
+    </script>
+    <!-- <script src="/src/pages/script.js"></script> -->
 </body>
 </html>

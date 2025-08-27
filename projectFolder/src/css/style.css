@@ -11,8 +11,14 @@ body{
 
 #ft{
 border: 3px solid gold;
+width: 350px;
+height: 25vh;
 }
 #tex{
+    margin-top: 20px;
+    border: 2px solid gold;
+}
+#pass{
     border: 2px solid gold;
 }
 #btn{
@@ -40,47 +46,17 @@ border: 3px solid gold;
     display: flex;
     gap: 30px;
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     margin-top: 100px;
     margin-left: 50px;
 }
-#box1{
+.box{
     border: 2px solid gold;
      width: 150px;
     height: 40vh;
     text-align: center;
 }
-#box2{
-    border: 2px solid gold;
-     width: 150px;
-    height: 40vh;
-   text-align: center;
-}
-#box3{
-    border: 2px solid gold;
-     width: 150px;
-    height: 40vh;
-  text-align: center;
-}
-#box4{
-    border: 2px solid gold;
-     width: 150px;
-    height: 40vh;
-    text-align: center;
-   
-}
-#box5{
-    border: 2px solid gold;
-    width: 150px;
-    height: 40vh;
-    text-align: center;
-}
-#box6{
-    border: 2px solid gold;
-    width: 150px;
-    height: 40vh;
-  text-align: center;
-}
+
 #bag1{
     width: 100px;
     height: 15vh;
@@ -88,5 +64,38 @@ border: 3px solid gold;
 }
 #companyName{
     border: 4px solid gold;
-    color: rgb(0, 0, 158);
+    color: rgb(3, 3, 181);
+}
+#footer{
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+    
+}
+p{
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+}
+.price{
+    color: blue;
+}
+#abutBody{
+    background-color: aliceblue;
+}
+#about{
+    text-align: center;
+}
+#services{
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+}
+#footmain{
+    margin-left: 300px;
+}
+#photography{
+    border: 2px solid blue;
+}
+#printing{
+    border: 2px solid blue;
 }
